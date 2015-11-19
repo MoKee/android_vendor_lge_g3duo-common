@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3duo-common/proprietary/etc/acdbdata/g3/Headset_cal.acdb:system/etc/acdbdata/g3/Headset_cal.acdb \
     vendor/lge/g3duo-common/proprietary/etc/acdbdata/g3/Speaker_cal.acdb:system/etc/acdbdata/g3/Speaker_cal.acdb \
     vendor/lge/g3duo-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/g3duo-common/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
+    vendor/lge/g3duo-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/g3duo-common/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
     vendor/lge/g3duo-common/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
     vendor/lge/g3duo-common/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
@@ -149,7 +149,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3duo-common/proprietary/etc/firmware/DLdata_rev28B_data2.ecl:system/etc/firmware/DLdata_rev28B_data2.ecl \
     vendor/lge/g3duo-common/proprietary/etc/firmware/DLdata_rev28B_data3.ecl:system/etc/firmware/DLdata_rev28B_data3.ecl \
     vendor/lge/g3duo-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/lge/g3duo-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+    vendor/lge/g3duo-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/lge/g3duo-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
     vendor/lge/g3duo-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/lge/g3duo-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
@@ -208,9 +208,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g3duo-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lge/g3duo-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/lge/g3duo-common/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lge/g3duo-common/proprietary/bin/radish:system/bin/radish \
     vendor/lge/g3duo-common/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lge/g3duo-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/lge/g3duo-common/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/g3duo-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/g3duo-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/g3duo-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
